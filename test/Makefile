@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = tt_um_joerdsonsilva_top.v $(PWD)/modem.v $(PWD)/bask.v $(PWD)/mult1.v $(PWD)/clk_rdg1.v $(PWD)/rdg1.v $(PWD)/ffd1.v $(PWD)/wave11.v $(PWD)/bfsk.v $(PWD)/clk_rdg2.v $(PWD)/clk_25MHz.v $(PWD)/wave12.v $(PWD)/wave22.v $(PWD)/rdg2.v $(PWD)/ffd2.v $(PWD)/freq_select.v $(PWD)/bpsk.v $(PWD)/clk_rdg3.v $(PWD)/rdg3.v $(PWD)/ffd3.v $(PWD)/wave13.v $(PWD)/wave23.v $(PWD)/control_0.v $(PWD)/demod_bask.v $(PWD)/demod_bfsk.v $(PWD)/wave122.v $(PWD)/mult2.v $(PWD)/integrator2.v $(PWD)/demod_bpsk.v $(PWD)/wave133.v $(PWD)/mult3.v $(PWD)/integrator3.v $(PWD)/control_1.v
+PROJECT_SOURCES = tt_um_joerdsonsilva_top.v /modem.v /bask.v /mult1.v /clk_rdg1.v /rdg1.v /ffd1.v /wave11.v /bfsk.v /clk_rdg2.v /clk_25MHz.v /wave12.v /wave22.v /rdg2.v /ffd2.v /freq_select.v /bpsk.v /clk_rdg3.v /rdg3.v /ffd3.v /wave13.v /wave23.v /control_0.v /demod_bask.v /demod_bfsk.v /wave122.v /mult2.v /integrator2.v /demod_bpsk.v /wave133.v /mult3.v /integrator3.v /control_1.v
 
 ifneq ($(GATES),yes)
 
